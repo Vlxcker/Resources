@@ -1,0 +1,72 @@
+.catalogDetail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+}
+
+.image {
+    flex: 1;
+    margin-right: 20px; /* Espacio entre la imagen y el contenido */
+}
+
+.image img {
+    width: 100%;
+    height: auto; /* Mantenemos la altura proporcional */
+}
+
+.details {
+    /* Ajustamos el tamaño del contenedor de detalles */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center; /* Centramos horizontalmente */
+ /* Centramos verticalmente */
+    min-height: 100vh;
+    background-color: beige;
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 20px; /* Agregamos relleno para evitar que el contenido esté pegado al borde */
+    justify-content:space-around;
+}
+
+.details h2 {
+    font-size: 60px; /* Modificamos el tamaño del título */
+    margin-bottom: 10px; /* Espacio adicional después del título */
+    margin-top: 0; /* Eliminamos el margen superior */
+    align-items: baseline;
+    height: 100%;
+}
+
+.details p {
+    font-size: 20px;
+    text-align: center; /* Centramos el texto horizontalmente */
+    position: relative;
+
+}
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.catalog-detail-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .accordion-container {
+    padding: 20px;
+  }
+  
